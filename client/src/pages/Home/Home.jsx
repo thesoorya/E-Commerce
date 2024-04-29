@@ -11,7 +11,7 @@ const Home = () => {
     <main>
       <NavbarExample />
       <NewCollection />
-      <Popular />
+      {/* <Popular /> */}
       <EmailBox />
       <Footer />
     </main>

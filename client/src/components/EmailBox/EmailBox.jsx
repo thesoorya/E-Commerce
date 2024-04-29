@@ -12,14 +12,15 @@ function EmailBox() {
 
     return (
         <main className='mt-5'>
-            <h1 className='text-center'>Subscribe, Stay updated!.</h1>
-            <Container className='d-flex justify-content-center'>
-                <Row>
+            <Container>
+                <h1 className='text-center'>Subscribe, Stay updated!.</h1>
+                <hr />
+                <Row className='d-flex justify-content-center'>
                     <Col lg={8} md={10} xs={12} style={styles}>
                         <InputGroup className="mb-3">
                             <Form.Control
-                                placeholder="Username"
-                                aria-label="Username"
+                                placeholder="Enter Mail"
+                                aria-label="Enter Mail"
                                 aria-describedby="basic-addon1"
                             />
                         </InputGroup>
