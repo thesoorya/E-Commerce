@@ -1,13 +1,12 @@
 import React from 'react'
-import './Home.css'
+import './Collections.css'
 import NavbarExample from '../../components/Navbar/Navbar'
-
-const Home = () => {
+const Collections = () => {
   return (
-    <div>
+    <>
       <NavbarExample />
-    </div>
+    </>
   )
 }
 
-export default Home
+export default Collections
