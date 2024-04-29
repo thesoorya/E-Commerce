@@ -4,7 +4,7 @@ import NavbarExample from '../../components/Navbar/Navbar'
 const About = () => {
     return (
         <>
-          <NavbarExample />  
+          <NavbarExample />
         </>
     )
 }

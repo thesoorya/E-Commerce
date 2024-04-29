@@ -14,7 +14,7 @@ function NavbarExample() {
 
     return (
         <Navbar expand="lg" bg="dark" variant="dark">
-            <Container>
+            <Container fluid>
                 <Link to={'/'} style={styles}><Navbar.Brand>Wizard</Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

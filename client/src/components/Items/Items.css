@@ -1,0 +1,11 @@
+.cardBox {
+  width: 17rem;
+}
+@media (max-width: 300px) {
+  .cardBox {
+    width: 100%;
+  }
+  .cardTitle {
+    font-size: 15px !important;
+  }
+}

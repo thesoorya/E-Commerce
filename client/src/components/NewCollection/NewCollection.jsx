@@ -1,17 +1,17 @@
-import React from 'react';
-import './Popular.css';
+import React from 'react'
+import newCollection from '../../components/assets/new_collections';
 import { Col, Container, Row } from 'react-bootstrap';
-import dataProducts from '../../components/assets/data';
 import Items from '../Items/Items';
+import './NewCollection.css'
 
-const Popular = () => {
+const NewCollection = () => {
     return (
         <Container>
             <article className='popular mt-5 d-flex flex-column justify-content-center'>
-                <h1 className='text-center'>Women</h1>
+                <h1 className='text-center'>New Collection</h1>
                 <hr />
                 <Row className='g-3'>
-                    {dataProducts.map((data, i) => (
+                    {newCollection.map((data, i) => (
                         <Items
                             key={i}
                             id={data.id}
@@ -24,7 +24,7 @@ const Popular = () => {
                 </Row>
             </article>
         </Container>
-    );
-};
+    )
+}
 
-export default Popular;
+export default NewCollection
