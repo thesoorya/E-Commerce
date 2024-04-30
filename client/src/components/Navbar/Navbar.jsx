@@ -20,7 +20,7 @@ function NavbarExample() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
-                        <Nav.Link as={Link} to={'/about'}>About</Nav.Link>
+                        {/* <Nav.Link as={Link} to={'/about'}>About</Nav.Link> */}
                         <Nav.Link as={Link} to={'/collections'}>Collections</Nav.Link>
                     </Nav>
                     <section className="ms-auto d-flex flex-column flex-lg-row justify-content-center align-items-lg-center">
